@@ -40,7 +40,7 @@ python3 main.py
 http://localhost:5004/graphql
 
 # Create Video query
-mutation{
+`mutation{
   createVideo(name:"David",likes:2,views:1){
     video{
       name,
@@ -50,9 +50,10 @@ mutation{
     
   }
 }
+`
 
 # Update Video query
-mutation{
+`mutation{
   updateVideo(name:"David",likes:2,views:1){
     video{
       name,
@@ -62,9 +63,10 @@ mutation{
     
   }
 }
+`
 
 #Get Video list query
-videos{
+`videos{
   edges{
     node{
       name,
@@ -74,15 +76,16 @@ videos{
   }
 }
 }
+`
 
 #Get Video by name query
-query{
+`query{
   video(name:"David"){
         name,
         likes,
         views
     }
-}
+}`
  
 
 
