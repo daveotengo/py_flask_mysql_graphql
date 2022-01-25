@@ -5,7 +5,8 @@ graphene
 graphene-sqlalchemy
 graphql-core
 graphql-relay
-virtualenv
 
 SQLAlchemy
 SQLAlchemy-Utils
+Flask
+PyMySQL
